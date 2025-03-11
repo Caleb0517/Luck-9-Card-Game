@@ -90,4 +90,8 @@ button:active {
         width: 50%;
         max-width: 600px;
     }
+     #cardImages img {
+        width: 150px;  
+        height: 200px; 
+    }
 }
