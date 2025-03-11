@@ -81,8 +81,4 @@ button:active {
         height: 80vh;
         justify-content: center; 
     }
-
-    #diceImages img {
-        max-height: 150px;
-    }
 }
