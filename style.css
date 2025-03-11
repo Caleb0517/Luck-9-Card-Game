@@ -81,8 +81,8 @@ button:active {
 
 @media (min-width: 1200px) {
     #container {
-        width: 700px;
-        height: 1000px;
+        width: 800px;
+        height: 100vh;
     }
     #container > * {
         width: 100%;
@@ -99,8 +99,27 @@ button:active {
         width: 120px;
     }
     #diceImages img, #cardImages img {
-        width: 100px
-        height: 200px;
+        max-height: 120px;
     }
 }
 
+@media (min-width: 1600px) {
+    #container {
+        width: 1000px;
+        height: 100vh;
+    }
+    body {
+        font-size: 2rem;
+    }
+    button {
+        padding: 20px 40px;
+        font-size: 1.5rem;
+    }
+    #container input {
+        font-size: 2.5rem;
+        width: 150px;
+    }
+    #diceImages img, #cardImages img {
+        max-height: 150px;
+    }
+}
